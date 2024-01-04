@@ -6,7 +6,6 @@ namespace Robo.Core.Configurations.Automapper
 {
     public class OrganizationProfile : Profile
     {
-        /*BracoDireitoStatusResponse*/
         public OrganizationProfile()
         {
             CreateMap<BracoStatusResponse,Braco>().ReverseMap();
